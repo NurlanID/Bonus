@@ -1,12 +1,12 @@
         import java.util.Scanner;
 
-        public class Lavash extends Bread {
+        public class ArmenianLavash extends Bread {
         Scanner sc = new Scanner(System.in);
         private double radius;
         private double thickness;
-        public Lavash() {
+        public ArmenianLavash() {
         }
-        public Lavash(double radius, double thickness) {
+        public ArmenianLavash(double radius, double thickness) {
             this.radius = radius;
             this.thickness = thickness;
         }

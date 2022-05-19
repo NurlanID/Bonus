@@ -1,13 +1,21 @@
-System.out.println("Лепёшка без веса - это подделка!");
-        System.exit(0);
-        } else if (weight <= weightAll) {
-        System.out.println("Лепёшка имеет вес: " + weight + " гр/кг");
-        }
-        }
-@Override
-public String toString() {
-        return "Цена: " + getPrice() + " $" +
-        "\nКомпания: " + getProduceCompany() +
-        "\nРадиус: " + radius + " см";
-        }
-        }
+    public class ChamomileBread extends Bread{
+    private int numChamomile;
+    public ChamomileBread() {
+    }
+    public ChamomileBread(int numChamomile) {
+        this.numChamomile = numChamomile;
+    }
+    public int getNumChamomile() {
+        return numChamomile;
+    }
+    public void setNumChamomile(int numChamomile) {
+        this.numChamomile = numChamomile;
+    }
+    @Override
+    public String toString() {
+        return "Вес: " + getWeight() + " грамм" +
+                "\nЦена: " + getPrice() + " $" +
+                "\nКомпания: " + getProduceCompany() +
+                "\nКоличество лепестков: " + numChamomile + " шт";
+    }
+}

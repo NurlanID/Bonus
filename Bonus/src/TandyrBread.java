@@ -1,11 +1,11 @@
     import java.util.Scanner;
 
-public class Cake extends Bread {
+public class TandyrBread extends Bread {
     Scanner sc = new Scanner(System.in);
     private double radius;
-    public Cake() {
+    public TandyrBread() {
     }
-    public Cake(double weight) {
+    public TandyrBread(double weight) {
         this.radius = radius;
     }
     public double getRadius() {
@@ -23,8 +23,7 @@ public class Cake extends Bread {
                 "*" + "      " + "*" + "\n    " +
                 "*" + "*" + "*" + "*");
     }
-    void Varnish() {
-        System.out.println("Лепёшка лакирована!");
+    void Varnish() {        System.out.println("Лепёшка лакирована!");
     }
     void Weight() {
         System.out.print("Какой вес имеет лепёшка: ");

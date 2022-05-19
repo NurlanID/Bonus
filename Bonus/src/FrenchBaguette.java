@@ -1,14 +1,14 @@
     import java.util.Scanner;
 
-    public class Baguette extends Bread{
+    public class FrenchBaguette extends Bread{
     Scanner sc = new Scanner(System.in);
     private double length;
     private int scarring;
-    public Baguette() {
+    public FrenchBaguette() {
 
     }
 
-    public Baguette(double length, int scarring) {
+    public FrenchBaguette(double length, int scarring) {
         this.length = length;
         this.scarring = scarring;
     }
